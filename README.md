@@ -1,10 +1,24 @@
-# Home Assistant Operating System
+# Hailo-10H Operating System (based on Home Assistant OS)
+
+> **Community fork — not affiliated with or endorsed by [Home Assistant](https://www.home-assistant.io) or the [Open Home Foundation](https://www.openhomefoundation.org/).**
+>
+> This is a modified build of [Home Assistant Operating System](https://github.com/home-assistant/operating-system)
+> (Apache 2.0 licensed) that replaces Hailo-8 driver/firmware packages with
+> Hailo-10H equivalents (HailoRT 5.2.0). See [HAILO10H_CHANGES.md](HAILO10H_CHANGES.md)
+> for details of what was changed.
+>
+> This fork exists because Hailo-8 (v4.x) and Hailo-10H (v5.x) kernel modules
+> cannot coexist. Once upstream supports both, this fork will be retired.
+
+---
+
+*The remainder of this README is from the upstream Home Assistant OS project.*
+
+## Original README
 
 Home Assistant Operating System (formerly HassOS) is a Linux based operating system optimized to host [Home Assistant](https://www.home-assistant.io) and its [Add-ons](https://www.home-assistant.io/addons/).
 
 Home Assistant Operating System uses Docker as its container engine. By default it deploys the Home Assistant Supervisor as a container. Home Assistant Supervisor in turn uses the Docker container engine to control Home Assistant Core and Add-Ons in separate containers. Home Assistant Operating System is **not** based on a regular Linux distribution like Ubuntu. It is built using [Buildroot](https://buildroot.org/) and it is optimized to run Home Assistant. It targets single board compute (SBC) devices like the Raspberry Pi or ODROID but also supports x86-64 systems with UEFI.
-
-[![Home Assistant - A project from the Open Home Foundation](https://www.openhomefoundation.org/badges/home-assistant.png)](https://www.openhomefoundation.org/)
 
 ## Features
 

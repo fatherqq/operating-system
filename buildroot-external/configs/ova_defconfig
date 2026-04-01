@@ -1,3 +1,4 @@
+# Modified: hailo8 packages replaced with hailo10h (see HAILO10H_CHANGES.md)
 BR2_x86_64=y
 BR2_PACKAGE_HOST_LINUX_HEADERS_CUSTOM_6_12=y
 BR2_TOOLCHAIN_BUILDROOT_CXX=y

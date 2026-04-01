@@ -1,2 +1,3 @@
+# Fork: Hailo-10H support added by mikehailodev (see HAILO10H_CHANGES.md)
 name: HASSOS
 desc: HassOS Buildroot tree

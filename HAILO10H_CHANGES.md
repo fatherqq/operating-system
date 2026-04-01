@@ -45,3 +45,13 @@ drops Hailo-8 compatibility.
 - The `master` branch supports Hailo-10H, Hailo-15L, and Hailo-12L (Mars)
 - The `hailo8` branch (v4.x) supports Hailo-8/8R/8L — **not included in this
   fork**
+
+## Licenses
+
+- **Home Assistant OS** — Apache License 2.0 (see [LICENSE](LICENSE))
+- **hailo10h-pci driver** (`hailort-drivers`) — GPL-2.0, per upstream
+  [LICENSE](https://github.com/hailo-ai/hailort-drivers/blob/master/LICENSE)
+- **hailo10h-firmware** — Proprietary, downloaded from Hailo's public S3 bucket.
+  Subject to Hailo's [End User License Agreement](https://hailo.ai/terms-and-conditions/).
+  Redistributed as a binary blob in the built image only.
+- **Buildroot** — GPL-2.0 (see `buildroot/COPYING`)
