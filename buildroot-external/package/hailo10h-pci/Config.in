@@ -1,0 +1,13 @@
+config BR2_PACKAGE_HAILO10H_PCI
+	bool "hailo10h-pci"
+	depends on BR2_LINUX_KERNEL
+	help
+	  Hailo-10H PCIe driver (hailo1x_pci kernel module).
+	  Supports Hailo-10H, Hailo-15L, and Hailo-12L
+	  accelerators over PCIe.
+
+	  Uses defer_fw_load=1 by default so firmware is
+	  loaded from userspace (e.g. a container add-on)
+	  rather than from the host filesystem.
+
+	  https://github.com/hailo-ai/hailort-drivers
